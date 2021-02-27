@@ -107,6 +107,7 @@ section {
     }
 
     nav {
+      z-index: 102;
       ul {
         display: flex;
         align-items: center;
@@ -115,6 +116,7 @@ section {
         li {
           a {
             font-size: .85em;
+
           }
           &:not(:last-child) {
             margin-right: 54px;
@@ -125,6 +127,10 @@ section {
             border: 2px solid;
             border-radius: 40px;
             padding: 10px 20px;
+
+            &:hover {
+              background-color: inherit;
+            }
           }
         }
       }
