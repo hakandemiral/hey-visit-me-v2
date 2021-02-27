@@ -6,7 +6,54 @@
     <title>Sweet Web Boilerplate</title>
     <link rel="stylesheet" href="stylesheets/style.min.css">
 </head>
-<body>
+<body id="bdy" class="theme--red">
+<section>
+    <div class="container">
+        <header>
+            <a class="logo" href="#">
+                <img src="./assets/images/hand.png" alt="Hand">
+                <span class="logo-text">Hey Visit Me</span>
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Developer</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Go to app</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="image">
+                <img class="vector" index="0" id="skull" src="./assets/images/skull.svg" alt="hero-img">
+
+                <div class="details">
+                    <div class="text">
+                        <h3>Captain Sem</h3>
+                        <h4>Veteran Spooky Ghost</h4>
+                    </div>
+                    <img src="./assets/images/detail-line.svg" alt="detail line">
+                </div>
+            </div>
+            <div class="text-area">
+                <h3>#1 Top Scariest  Ghost 2020</h3>
+                <h2>RESPAWN THE SPOOKY SKULL</h2>
+                <p>
+                    In search for cute little puppy, Captain Sem has come back
+                    from his tragic death. With his hogwarts certified power he
+                    promise to be a hero for all of ghostkind.
+                </p>
+                <div class="buttons">
+                    <a class="button" href="#" onclick='changeTheme();'>Change theme</a>
+                    <a class="arrowed" href="#">His Track Record</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</section>
     <script src="javascripts/app.min.js"></script>
 </body>
 </html>
